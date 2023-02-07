@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator | Project 1 | Sambhav Gupta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Casio</h1>
+    <table id="table">
+        <tr>
+            <td colspan="3"> <input type="text" id="result" /> </td>
+            <td> <input type="button" id="b" value="C" onclick="clr()"/> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" id="b" value="1" onclick="inputnum(1)"/> </td>
+            <td> <input type="button" id="b" value="2" onclick="inputnum(2)"/> </td>
+            <td> <input type="button" id="b" value="3" onclick="inputnum(3)"/> </td>
+            <td> <input type="button" id="b" value="/" onclick="inputnum('/')"/> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" id="b" value="4" onclick="inputnum(4)"/> </td>
+            <td> <input type="button" id="b" value="5" onclick="inputnum(5)"/> </td>
+            <td> <input type="button" id="b" value="6" onclick="inputnum(6)"/> </td>
+            <td> <input type="button" id="b" value="-" onclick="inputnum('-')"/> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" id="b" value="7" onclick="inputnum(7)"/> </td>
+            <td> <input type="button" id="b" value="8" onclick="inputnum(8)"/> </td>
+            <td> <input type="button" id="b" value="9" onclick="inputnum(9)"/> </td>
+            <td> <input type="button" id="b" value="+" onclick="inputnum('+')"/> </td>
+        </tr>
+        <tr>
+            <td> <input type="button" id="b" value="." onclick="inputnum('.')"/> </td>
+            <td> <input type="button" id="b" value="0" onclick="inputnum(0)"/> </td>
+            <td> <input type="button" id="b" value="=" onclick ="solve()"/></td>
+            <td> <input type="button" id="b" value="*" onclick="inputnum('*')"/> </td>
+        </tr>
+    
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>
